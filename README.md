@@ -20,12 +20,15 @@ source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install pycryptodome
 ```
 ## Como usarlo ?
-
-1. El programa solicitará:
+1. Ejecuta el archivo Python desde la terminal:
+   ```bash
+      python LAB4CRIPTO.py
+   ```
+2. El programa solicitará:
     * El algoritmo a usar (DES, 3DES, AES-256)
     * La operación a realizar (cifrar o descifrar)
     * El texto, la clave (key) y el vector de inicialización (IV)
-2. Como salida, se mostrará el texto cifrado (o descifrado en formato):
+3. Como salida, se mostrará el texto cifrado (o descifrado en formato):
     * Hex
     * BASE64
 
