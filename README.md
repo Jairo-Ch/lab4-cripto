@@ -18,6 +18,15 @@ Es recomendable crear un entorno virtual antes de instalar los paquetes:
 python3 -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install pycryptodome
-´´´
+
+## Como usarlo ?
+
+1. El programa solicitará:
+    * El algoritmo a usar (DES, 3DES, AES-256)
+    * La operación a realizar (cifrar o descifrar)
+    * El texto, la clave (key) y el vector de inicialización (IV)
+2. Como salida, se mostrará el texto cifrado (o descifrado en formato):
+    * Hex
+    * BASE64
 
   
