@@ -18,7 +18,7 @@ Es recomendable crear un entorno virtual antes de instalar los paquetes:
 python3 -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install pycryptodome
-
+```
 ## Como usarlo ?
 
 1. El programa solicitará:
